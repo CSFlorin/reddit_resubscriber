@@ -31,6 +31,6 @@ def main():
 
 if __name__ == "__main__":
     if len(sys.argv) != 9:
-        print("Run reddit_resubscriber with all necessary parameters.")
+        print("Run reddit_resubscriber with all eight parameters:\n    old_client_id,\n    old_client_secret,\n    old_pw,\n    old_username,\n    new_client_id,\n    new_client_secret,\n    new_pw,\n    new_username")
     else:
         main()
