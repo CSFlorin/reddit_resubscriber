@@ -5,6 +5,7 @@ Run with args old_client_id, old_client_secret, old_pw, old_username, new_client
 
 import praw
 import sys
+# TODO: Parallelize according to number of threads
 
 def main():
     old_account = praw.Reddit(client_id=sys.argv[1],
